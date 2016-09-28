@@ -4848,3 +4848,7 @@ n:566:org/codehaus/groovy/grails/validation/Validateable
 y:6750:org/springframework/core/Constants
 n:2302:org/codehaus/groovy/grails/project/compiler/GrailsProjectWatcher$2
 n:375:org/codehaus/groovy/grails/project/compiler/GrailsProjectWatcher$ClassUpdate
+n:1826:grails/util/BuildSettings$getClassesDir$3
+n:2009:java_io_File$createTempFile$6
+n:1385:java_io_File$deleteOnExit$7
+n:1489:java_io_File$delete$8
