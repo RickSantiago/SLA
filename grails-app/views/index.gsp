@@ -19,12 +19,14 @@
 		${flash.error}
 	</div>
 </g:if>
-<h2>Available Controllers:</h2>
-<ul class="collection">
-    <g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-        %{--<li class="controller"><g:link controller="${c.logicalPropertyName}">${c.name}</g:link></li>--}%
-        <li class="collection-item"><g:link controller="${c.logicalPropertyName}">${c.name}</g:link></li>
-    </g:each>
+<div id="controller-list" role="navigation">
+	<h2>Controllers:</h2>
+	<ul>
+		<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
+			<li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
+		</g:each>
+	</ul>
+</div>
 </ul>
 </body>
 </html>
