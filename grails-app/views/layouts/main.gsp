@@ -13,6 +13,9 @@
     <meta name="author" content="Ricardo Santiago Morais">
     <link rel="stylesheet" href="${resource(dir: 'css', file: 'materialize.css')}" type="text/css">
     <link rel="stylesheet" href="${resource(dir: 'css', file: 'materialize.min.css')}" type="text/css">
+    <link rel="stylesheet" href="${resource(dir: 'fonts', file: 'Roboto-Light.woff')}" type="text/css">
+    <link rel="stylesheet" href="${resource(dir: 'fonts', file: 'Roboto-Light.ttf')}" type="text/css">
+    <link rel="stylesheet" href="${resource(dir: 'fonts', file: 'Roboto-Light.woff2')}" type="text/css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <g:layoutHead/>
 </head>
@@ -57,5 +60,8 @@
 </footer>
 <div class="footer" role="contentinfo"></div>
 <div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
+<script src="${resource(dir:'js', file: 'jquery-2.1.1.min.js')}"></script>
+<script src="${resource(dir:'js', file: 'materialize.js')}"></script>
+<script src="${resource(dir:'js', file: 'materialize.min.js')}"></script>
 </body>
 </html>
