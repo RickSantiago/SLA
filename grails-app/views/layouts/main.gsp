@@ -19,7 +19,10 @@
 <body>
 <nav class="teal 500" role="navigation">
     <div class="nav-wrapper container">
-        <a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a>
+        <ul class="left hide-on-med-and-down">
+            <li><a href="${createLink(uri: '/')}">Inicio</a></li>
+            </ul>
+        <a id="logo-container" href="${createLink(uri: '/')}" class="brand-logo center"><img class="logo" src="${resource(dir: 'img', file: 'eservice_business-applications-icon.png')}" width="60" alt="logotipo da empresa" /></a>
         <ul class="right hide-on-med-and-down">
             <li><a href="">Cadastro</a></li>
             <!-- Dropdown Trigger -->
@@ -30,7 +33,7 @@
 </nav>
 
 <g:layoutBody/>
-<footer class="page-footer">
+<footer class="page-footer ">
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
