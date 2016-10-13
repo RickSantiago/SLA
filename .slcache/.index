@@ -4878,3 +4878,10 @@ n:3377:org/springframework/util/ConcurrentReferenceHashMap$EntrySet
 n:3649:org/springframework/util/ConcurrentReferenceHashMap$EntryIterator
 n:1919:org/apache/log4j/DefaultThrowableRenderer
 n:200:org/apache/log4j/spi/ThrowableRenderer
+n:2801:BuildConfig$_run_closure1$_closure5
+n:3473:org/codehaus/groovy/grails/resolve/maven/aether/support/ScopeAwareNearestVersionSelector$ScopeComparator
+n:1964:org/codehaus/groovy/control/messages/SyntaxErrorMessage
+n:1774:org/codehaus/groovy/control/messages/Message
+n:2316:org/codehaus/groovy/syntax/SyntaxException
+n:1134:org/codehaus/groovy/GroovyException
+n:3175:org/codehaus/groovy/tools/ErrorReporter

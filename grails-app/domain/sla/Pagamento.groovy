@@ -5,7 +5,7 @@ class Pagamento
     float valor
     Meses meses
 
-    static hasMany = [meses : Meses]
+    static hasMany = [plano:Plano]
 
     static constraints =
     {

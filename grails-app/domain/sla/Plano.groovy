@@ -7,8 +7,7 @@ class Plano {
     Date data_inicio
     Date data_pagamento
     Pagamento pagamento
-
-    static hasMany = [pagamento : Pagamento]
+    Pessoa pessoa
 
     static constraints =
     {
