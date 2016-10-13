@@ -7,8 +7,8 @@ class Endereco
     String numero
     String cep
     String complemento
-    Pessoa pessoa
-    Cidade cidade
+//    Pessoa pessoa
+//    Cidade cidade
 
     String toString()
     {

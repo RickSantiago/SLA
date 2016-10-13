@@ -4,7 +4,7 @@ class Meses
 {
     String nome
 
-    static hasMany = [pagamento:Pagamento]
+//    static hasMany = [pagamento:Pagamento]
 
     static constraints =
     {
